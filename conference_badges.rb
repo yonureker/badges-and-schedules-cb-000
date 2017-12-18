@@ -9,3 +9,6 @@ end
 def assign_rooms(array)
   array.collect.with_index { |name, index| "Hello, #{name}! You'll be assigned to room #{index + 1}!" }
 end
+
+def printer
+end
